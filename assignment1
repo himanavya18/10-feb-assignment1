@@ -1,0 +1,14 @@
+#program to print marks of 6 subjects and check pass/fail
+sno=int(input('enter student no:'))
+sname=(input('enter student name:'))
+sgroup=(input('enter student group:'))
+s1=int(input('telugu marks:'))
+s2=int(input('english marks:'))
+s3=int(input('environmental education:'))
+s4=int(input('online business:'))
+s5=int(input('electronics marks:'))
+s6=int(input('computers marks:'))
+if(s1>=35 and s2>=35 and s3>=35):
+    print('pass')
+else:
+    print ('fail')
