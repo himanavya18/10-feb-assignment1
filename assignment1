@@ -8,7 +8,7 @@ s3=int(input('environmental education:'))
 s4=int(input('online business:'))
 s5=int(input('electronics marks:'))
 s6=int(input('computers marks:'))
-if(s1>=35 and s2>=35 and s3>=35):
+if(s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35):
     print('pass')
 else:
     print ('fail')
