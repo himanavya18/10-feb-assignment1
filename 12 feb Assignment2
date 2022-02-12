@@ -1,0 +1,17 @@
+#Write a program to compare two numbers are 1.equal, 2.not equal, 3.one is greater than other , 4.other is grater
+a=int(input('enter number:'))
+b=int(input('enter number:'))
+if a==b:
+    print(' a and b are equal')
+if a!=b:
+    print(' a and b are not equal')
+if a>b:
+    print('a is greater')
+else:
+    print('b is greater')
+    
+OUTPUT:
+enter number:45
+enter number:56
+ a and b are not equal
+b is greatest
