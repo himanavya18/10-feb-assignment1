@@ -1,0 +1,16 @@
+x=input()
+ l=x.split()
+ p=[]
+ n=[]
+ for i in l:
+     i=int(i)
+     if i>=0:
+         p.append(i)
+     else:
+         n.append(i)
+ for i in range(len(p)):
+     print(p[i],end=' ')
+ print(' ',end=' ')
+ for i in range(len(n)):
+     print(n[i],end=' ')
+ print(' ')
